@@ -11,6 +11,8 @@ mkdir mytodo && cd mytodo
 通过 Yeoman 菜单使用生成器
 yo
 
+打开项目，目录下运行  gulp serve
+
  配置生成器
 
 打开服务器
