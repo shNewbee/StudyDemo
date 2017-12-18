@@ -1,0 +1,92 @@
+安装yeoman工具箱
+ npm install -g yo
+
+安装Yeoman生成器
+npm install generator-fountain-webapp
+
+搭建app
+创建项目文件夹
+mkdir mytodo && cd mytodo
+
+通过 Yeoman 菜单使用生成器
+yo
+
+打开项目，目录下运行  gulp serve
+
+ 配置生成器
+
+打开服务器
+npm run serve
+
+使用karma和jasmine测试
+运行测试单元
+npm test
+
+使用 Local Storage 永久保存 todos
+安装 npm 包
+npm install --save redux-localstorage@rc
+
+优化产品文件
+npm run build
+
+建立及预览生产的应用程序
+npm run serve:dist
+
+
+//关于yeoman使用规则
+
+General options:
+  --help         # Print this info and generator's options and usage
+  -f, --force    # Overwrite files that already exist
+  --version      # Print version
+  --no-color     # Disable colors
+  --[no-]insight # Toggle anonymous tracking
+  --generators   # Print available generators
+
+Install a generator:
+
+  Generators can be installed through npm.
+
+  $ npm install generator-angular
+  $ yo angular --help
+
+Completion:
+
+  To enable shell completion for the yo command, try running
+
+  $ yo completion
+
+Troubleshooting:
+
+  For any issues, try running
+
+  $ yo doctor
+
+Full Documentation: http://yeoman.io
+
+Available Generators:
+
+  angular
+    common
+    constant
+    controller
+    decorator
+    directive
+    factory
+    filter
+    main
+    provider
+    route
+    service
+    value
+    view
+  webapp
+
+  karma
+
+
+
+
+
+
+
