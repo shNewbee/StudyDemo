@@ -1,0 +1,44 @@
+26-Dec-2017 12:56:49.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.2
+26-Dec-2017 12:56:49.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 25 2017 21:08:02 UTC
+26-Dec-2017 12:56:49.426 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.2.0
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.2
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+26-Dec-2017 12:56:49.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Dec-2017 12:56:49.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/guanlin/Documents/GitHub/tomcat_for_CMS
+26-Dec-2017 12:56:49.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/guanlin/Documents/GitHub/tomcat_for_CMS
+26-Dec-2017 12:56:49.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Dec-2017 12:56:49.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Dec-2017 12:56:49.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/guanlin/Documents/GitHub/tomcat_for_CMS/conf/logging.properties
+26-Dec-2017 12:56:49.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2017 12:56:49.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2017 12:56:49.430 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2017 12:56:49.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2017 12:56:49.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/guanlin/Documents/GitHub/tomcat_for_CMS
+26-Dec-2017 12:56:49.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/guanlin/Documents/GitHub/tomcat_for_CMS
+26-Dec-2017 12:56:49.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/guanlin/Documents/GitHub/tomcat_for_CMS/temp
+26-Dec-2017 12:56:49.431 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/guanlin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Dec-2017 12:56:49.474 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2017 12:56:49.512 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2017 12:56:49.519 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2017 12:56:49.520 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2017 12:56:49.521 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 702 ms
+26-Dec-2017 12:56:49.579 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Dec-2017 12:56:49.579 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.2
+26-Dec-2017 12:56:49.587 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/docs]
+26-Dec-2017 12:56:50.000 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/docs] has finished in [411] ms
+26-Dec-2017 12:56:50.000 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/manager]
+26-Dec-2017 12:56:50.053 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/manager] has finished in [53] ms
+26-Dec-2017 12:56:50.053 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/examples]
+26-Dec-2017 12:56:50.309 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/examples] has finished in [255] ms
+26-Dec-2017 12:56:50.309 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/ROOT]
+26-Dec-2017 12:56:50.331 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/ROOT] has finished in [22] ms
+26-Dec-2017 12:56:50.332 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/host-manager]
+26-Dec-2017 12:56:50.352 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/guanlin/Documents/GitHub/tomcat_for_CMS/webapps/host-manager] has finished in [19] ms
+26-Dec-2017 12:56:50.354 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Dec-2017 12:56:50.364 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2017 12:56:50.365 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 844 ms
+26-Dec-2017 13:00:21.096 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Dec-2017 13:01:18.595 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
