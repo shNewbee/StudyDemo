@@ -1,0 +1,31 @@
+//安装
+npm install -g @angular/cli
+
+//命令行
+ng new proNmae
+ng new peoNmae -si -- routing
+
+ng serve
+ng serve --port 4201
+
+ng generate
+ng g
+ng generate component componentName
+
+ng test
+
+ng build
+ng build --aot
+ng build -prod
+
+
+//MongoDB
+
+C:\Program Files\MongoDB\Server\3.4\bin
+
+以下命令将MongoDB服务器作为Windows服务运行：
+mongod.exe --bind_ip yourIPadress --logpath "D:\cqw\trunk\dbConf\mongodb.log" --logappend --dbpath "D:\cqw\trunk\db" --port yourPortNumber --serviceName "YourServiceName" --serviceDisplayName "YourServiceName" --install
+
+
+
+
